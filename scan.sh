@@ -7,7 +7,7 @@ clear
 function banner(){
 		echo -e "\t${p}_________________________"
 		echo -e "\t${h}  TOOLS SCANNING PROXY"
-		echo -e "\t${p}   Author${m}: ${p}👉🏻GRETONGERS🇲🇨INDONESIA👈🏻"
+		echo -e "\t${p}   Author${m}: ${p}GRETONGERS_INDONESIA"
 		echo -e "\t${p}    Recode bye RusmanaID "
 		echo -e "\t${p}_________________________"
 	   	
@@ -15,7 +15,7 @@ function banner(){
 banner
 
 function sec(){
-		printf "\t\b${p} [${h}•${p}] Cheking Proxy${m}:    ${p}"
+		printf "\t\b${p} [${h}•${p}] SABAR COK${m}:    ${p}"
 			for w in {3..0};do
 			get=$(printf "\b${w}")
 		printf "\b\b\b((${h}${get}${p})"
