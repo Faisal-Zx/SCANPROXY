@@ -1,11 +1,20 @@
-#!/usr/xbim/bash
-p="\033[39;1m"
-m="\033[31;1m"
-h="\033[32;1m"
-
-clear
-function banner(){
-		"""
+#!/usr/bin/python
+#Code By: Mr.Đ`HACK
+#Code Date: 23/12/2019
+#Tools: Scanner
+################################################################
+#                       import module                          #
+#                     kesalahan module                         #
+################################################################
+try:
+        import os, requests, time, json
+except ModuleNotFoundError:
+        print ("\nSepertinya module requests BELUM Di Install")
+################################################################
+#                       banner                                 #
+################################################################
+os.system('clear')
+banner = """
           _______
          <\> | </>
            \/ \/
