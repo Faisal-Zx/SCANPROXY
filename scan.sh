@@ -1,34 +1,56 @@
-#!/usr/bin/python
-#Code By: Mr.Đ`HACK
-#Code Date: 23/12/2019
-#Tools: Scanner
-################################################################
-#                       import module                          #
-#                     kesalahan module                         #
-################################################################
-try:
-        import os, requests, time, json
-except ModuleNotFoundError:
-        print ("\nSepertinya module requests BELUM Di Install")
-################################################################
-#                       banner                                 #
-################################################################
-os.system('clear')
-banner = """
-          _______
-         <\> | </>
-           \/ \/
-            \|/
-            <|>
-             =
-         {Scanner}
-   ======================
-  <\>Code By Mr.D'HACK</>
-  </>Black Coder Crush<\>
-   ======================
-"""
-	   	
-}
+
+#usr/bin/bash
+clear
+#ini warna
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+# Recode ajh mmnx
+echo
+echo
+#ini paket untuk menjalankan tools
+dicky.sh
+echo
+clear
+echo
+echo $me"                     ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶"
+echo $me"                 ¶¶¶¶¶¶             ¶¶¶¶¶¶¶"
+echo $me"              ¶¶¶¶                        ¶¶¶¶"
+echo $me"             ¶¶¶                            ¶¶¶"
+echo $me"            ¶¶                                ¶¶"
+echo $me"           ¶¶                                  ¶¶"
+echo $me"          ¶¶                                   ¶¶"
+echo $me"          ¶¶´¶¶                             ¶¶´¶¶"
+echo $me"          ¶¶´¶¶                             ¶¶´´¶"
+echo $me"          ¶¶´¶¶                             ¶¶´´¶"
+echo $me"         ¶¶  ¶¶                            ¶¶´¶¶"
+echo $me"          ¶¶´´¶¶                           ¶¶´´¶¶"
+echo $me"           ¶¶´¶¶   ¶¶¶¶¶¶¶¶     ¶¶¶¶¶¶¶¶   ¶¶´¶¶"
+echo $me"            ¶¶¶¶´¶¶¶¶¶¶¶¶¶¶     ¶¶¶¶¶¶¶¶¶¶ ¶¶¶¶¶"
+echo $me"             ¶¶¶´¶¶¶¶¶¶¶¶¶¶     ¶¶¶¶¶¶¶¶¶¶ ¶¶¶"
+echo $me"    ¶¶¶       ¶¶  ¶¶¶¶¶¶¶¶       ¶¶¶¶¶¶¶¶¶  ¶¶      ¶¶¶¶"
+echo $me"   ¶¶¶¶¶     ¶¶   ¶¶¶¶¶¶¶   ¶¶¶   ¶¶¶¶¶¶¶   ¶¶     ¶¶¶¶¶¶"
+echo $me"  ¶¶   ¶¶    ¶¶     ¶¶¶    ¶¶¶¶¶    ¶¶¶     ¶¶    ¶¶   ¶¶"
+echo $me" ¶¶¶    ¶¶¶¶  ¶¶          ¶¶¶¶¶¶¶          ¶¶  ¶¶¶¶    ¶¶¶"
+echo $me"¶¶         ¶¶¶¶¶¶¶¶       ¶¶¶¶¶¶¶        ¶¶¶¶¶¶¶¶¶        ¶¶"
+echo $me"¶¶¶¶¶¶¶¶¶     ¶¶¶¶¶¶¶¶    ¶¶¶¶¶¶¶    ¶¶¶¶¶¶¶¶      ¶¶¶¶¶¶¶¶"
+echo $me"  ¶¶¶¶ ¶¶¶¶¶      ¶¶¶¶¶              ¶¶¶ ¶¶     ¶¶¶¶¶¶ ¶¶¶"
+echo $me"       ¶¶¶¶¶¶  ¶¶¶  ¶¶           ¶¶  ¶¶¶  ¶¶¶¶¶¶"        
+echo $me"              ¶¶¶¶¶¶ ¶¶ ¶¶¶¶¶¶¶¶¶¶¶ ¶¶ ¶¶¶¶¶¶"
+echo $me"                  ¶¶ ¶¶ ¶ ¶ ¶ ¶ ¶ ¶ ¶ ¶ ¶¶"
+echo $me"                ¶¶¶¶  ¶ ¶ ¶ ¶ ¶ ¶ ¶ ¶   ¶¶¶¶¶"
+echo $me"            ¶¶¶¶¶ ¶¶   ¶¶¶¶¶¶¶¶¶¶¶¶¶   ¶¶ ¶¶¶¶¶"
+echo $me"    ¶¶¶¶¶¶¶¶¶¶     ¶¶                 ¶¶      ¶¶¶¶¶¶¶¶¶"
+echo $me"   ¶¶           ¶¶¶¶¶¶¶             ¶¶¶¶¶¶¶¶          ¶¶"
+echo $me"    ¶¶¶     ¶¶¶¶¶     ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶     ¶¶¶¶¶     ¶¶¶"
+echo $me"      ¶¶   ¶¶¶           ¶¶¶¶¶¶¶¶¶           ¶¶¶   ¶¶"
+echo $me"      ¶¶  ¶¶                                   ¶¶  ¶¶"
+echo $me"       ¶¶¶¶                                     ¶¶¶¶"
+
 banner
 
 function sec(){
