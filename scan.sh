@@ -7,8 +7,7 @@ clear
 function banner(){
 		echo -e "\t${p}_________________________"
 		echo -e "\t${h}  TOOLS SCANNING PROXY"
-		echo -e "\t${p}   Author${m}: ${p}KumpulanRemaja "
-		echo -e "\t${p}    KumpulanRemaja.com"
+		echo -e "\t${p}   Author${m}: ${p}👉🏻GRETONGERS🇲🇨INDONESIA👈🏻"
 		echo -e "\t${p}    Recode bye RusmanaID "
 		echo -e "\t${p}_________________________"
 	   	
@@ -24,7 +23,7 @@ function sec(){
 		done
 }
 
-printf "\t${p}[${h}•${p}] PROXY YOU?${m}: ${p}"
+printf "\t${p}[${h}•${p}] PROXY YOU COK?${m}: ${p}"
 read proxy;
 
 	if \
